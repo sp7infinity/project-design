@@ -27,6 +27,8 @@
                         <span class="align-middle">Dashboard Kit</span>
                     </a>
 
+                    <br>
+
                     <ul class="navbar-nav align-self-stretch">
                         <li class=""> 
                             <a class="nav-link text-left active"  role="button" aria-haspopup="true" aria-expanded="false">
@@ -70,7 +72,11 @@
                            </a>
                         </li>
 
+                        <br>
+
                         <img src="graphics/horizontal.png">
+
+                        <br>
 
                         <li class=""> 
                             <a class="nav-link text-left"  role="button">
@@ -90,8 +96,76 @@
             </nav>
             <!-- Sidebar wrapped -->
             
+            <!-- Page content -->
+            <div id="page-content-wrapper">
+
+                <div id="content">
+
+                    <div class="container-fluid p-0 px-lg-0 px-md-0">
+
+                        <!-- Topbar  -->
+                        <nav class="navbar navbar-expand navbar-light my-navbar">
+
+                            <!-- Sidebar Toggle -->
+                            <div type="button"  id="bar" class="nav-icon1 hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            
+                            <h1 class="h3 mb-0 text-gray-800">Overview</h1>
+
+                            <ul class="navbar-nav ml-auto">
+
+                                <!-- Search -->
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        <img src="graphics/search.png">                                      
+                                    </a>
+                                </li>
+
+                                <!-- Notifications -->
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" role="button">
+                                        <img src="graphics/new.png">                                      
+                                    </a>
+                                </li>
+
+                                <!-- Divider  -->
+                                <li class="nav-item">
+                                    <img class="vrdiv" src="graphics/Vertical-line.png" height="30px">
+                                </li>
+
+                                <!-- User imformation -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button">
+                                      <span class="mr-2 d-none d-lg-inline text-gray-600 small">Janes Ferdinand</span>
+                                      <img class="img-profile rounded-circle" src="graphics/photo.png">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                        <!-- Topbar wrapped  -->
+
+                    </div>
+                </div>
+            </div>
 
         </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    
+  
+        <script>
+        
+            $('#bar').click(function(){
+                $(this).toggleClass('open');
+                $('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled' );
+
+            });
+
+        </script>
 
     </body>
 </html>
