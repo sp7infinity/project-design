@@ -266,17 +266,46 @@ html { height: 100%;}
 /* Graph header wrapped */
 
 /* Graph */
+.gr-tot {
+  max-width: 100%;
+  height: auto;
+}
+
 .gr {
   margin: 70px 0 30px 15px;
   position: relative;
+  white-space: nowrap;
 }
+
 .gr-back {
   position: absolute;
   top: 2%;
 }
+
 #gr-ver {
   margin-top: 115px;
   margin-left: 414px;
 }
+@media only screen and (max-width:600px){
+  #gr-ver{
+    top: 15%; 
+    left: 51.5%;
+   }
+  }
 /* Graph wrapped */
+
+/* Stats cards */
+.stat-card {
+  padding: 20px 0;
+  margin-left: auto;
+  border: rgb(204, 204, 204);
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+}
+
+.stat-card h5{
+  color: rgb(158, 158, 158);
+}
+/* Stats card wrapped */
 /* Second row wrapped */
