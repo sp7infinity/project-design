@@ -283,15 +283,21 @@ html { height: 100%;}
 }
 
 #gr-ver {
-  margin-top: 115px;
-  margin-left: 414px;
+  margin-top: 12%;
+  margin-left: 43.2%;
 }
 @media only screen and (max-width:600px){
   #gr-ver{
-    top: 15%; 
-    left: 51.5%;
+    height: 120px;
+    top: 15.5%; 
+    left: 28.5%;
    }
-  }
+
+   .ver-val {
+     width: 8px;
+     height: auto;
+   }
+}
 /* Graph wrapped */
 
 /* Stats cards */
@@ -368,6 +374,7 @@ html { height: 100%;}
 .task-row, .tar-fir {
   border-bottom: rgb(204, 204, 204);
   border-bottom-style: solid;
+  margin-left: 2%;
 }
 
 .tar-last {
