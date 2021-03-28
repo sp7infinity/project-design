@@ -309,3 +309,117 @@ html { height: 100%;}
 }
 /* Stats card wrapped */
 /* Second row wrapped */
+
+/* Final row */
+.ticket-card {
+  box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+  background-color: white;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+}
+
+.task-card {
+  box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+  background-color: white;
+  margin: 0.5% 0 2% auto;
+}
+
+.task-header, .ticket-header {
+  margin: 3% 2%;
+}
+
+.td-foot {
+  color: rgb(158, 158, 158);
+  font-size: 0.875rem;
+}
+
+.sup {
+  color: rgb(82, 80, 80);
+  font-weight: 600;
+}
+
+.bl-view {
+  color: rgb(38, 94, 247);
+  border: none;
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  position: absolute;
+  right: 3%;
+}
+
+.ticket-row {
+  margin-left: 2%;
+  padding: 2% 0;
+  border-bottom: rgb(204, 204, 204);
+  border-bottom-style: solid;
+}
+
+.tr-last {
+  border: none;
+}
+
+.tick-stat {
+  color: rgb(158, 158, 158);
+  position: absolute;
+  right: 3%;
+}
+
+.task-row, .tar-fir {
+  border-bottom: rgb(204, 204, 204);
+  border-bottom-style: solid;
+}
+
+.tar-last {
+  border: none;
+}
+
+.tar-fir {
+  margin-top: 7%;
+  color: rgb(158, 158, 158);
+}
+
+.add {
+  color: rgb(82, 80, 80);
+  background-color: rgb(230, 227, 227);
+  border: none;
+  border-radius: 10%;
+  position: absolute;
+  right: 3%;
+}
+
+.task-row {
+  margin-top: 1%;
+  padding: 1% 0;
+}
+
+.pri-ur {
+  background-color: rgb(253, 211, 97);
+  color: white;
+  border-radius: 10%;
+  border: none;
+  font-size: 0.875rem;
+  position: absolute;
+  right: 3%;
+}
+
+.pri-new {
+  background-color: rgb(65, 204, 65);
+  color: white;
+  border-radius: 10%;
+  border: none;
+  font-size: 0.875rem;
+  position: absolute;
+  right: 3%;
+}
+
+.pri-def {
+  color: rgb(82, 80, 80);
+  background-color: rgb(230, 227, 227);
+  border-radius: 10%;
+  border: none;
+  font-size: 0.875rem;
+  position: absolute;
+  right: 3%;
+}
+/* Final row wrapped */

@@ -289,27 +289,33 @@
                                         <div class="col-sm-6 ticket-card">
 
                                             <div class="ticket-header">
-                                                <h5>Unresolved tickets</h5>
-                                                <h6>View details</h6>
-                                                <p>Group: Support</p>
+                                                <h5>
+                                                    <b>Unresolved tickets</b> 
+                                                    <button type="button" class="bl-view">View details</button> 
+                                                </h5>                                               
+                                                <p class="td-foot">Group: <span class="sup">Support</span></p>
                                             </div>
                                             
                                             <div class="ticket-desc">
                                                 <div class="ticket-row">
-                                                    <h6>Waiting on Feature Request</h6>
-                                                    <p>4238</p>
+                                                    <h6>
+                                                        <b>Waiting on Feature Request</b> <span class="tick-stat">4238</span>
+                                                    </h6>
                                                 </div>
                                                 <div class="ticket-row">
-                                                    <h6>Awaiting Customer Response</h6>
-                                                    <p>1005</p>
+                                                    <h6>
+                                                        <b>Awaiting Customer Response</b> <span class="tick-stat">1005</span>
+                                                    </h6>
                                                 </div>
                                                 <div class="ticket-row">
-                                                    <h6>Awaiting Developer Fix</h6>
-                                                    <p>914</p>
+                                                    <h6>
+                                                        <b>Awaiting Developer Fix</b> <span class="tick-stat">914</span>
+                                                    </h6>
                                                 </div>
-                                                <div class="ticket-row">
-                                                    <h6>Pending</h6>
-                                                    <p>281</p>
+                                                <div class="ticket-row tr-last">
+                                                    <h6>
+                                                        <b>Pending</b> <span class="tick-stat">281</span>
+                                                    </h6>
                                                 </div>
                                             </div>
 
@@ -317,29 +323,37 @@
                                         <!-- Tickets wrapped -->
 
                                         <!-- Tasks -->
-                                        <div class="col-sm-6 task-card">
+                                        <div class="col-sm-5 task-card">
 
                                             <div class="task-header">
-                                                <h5>Tasks</h5>
-                                                <h6>View all</h6>
-                                                <p>Today</p>
+                                                <h5>
+                                                    Tasks
+                                                    <button type="button" class="bl-view">View all</button>
+                                                </h5>
+                                                <p class="td-foot">Today</p>
                                             </div>
 
                                             <div class="task-desc">
-                                                <div class="task-row">
-                                                    <p>Create new task</p>
+                                                <div class="tar-fir">
+                                                    <p>
+                                                        Create new task
+                                                        <button type="button" class="add">+</button>
+                                                    </p>
                                                 </div>
                                                 <div class="task-row">
-                                                    <input type="checkbox" name="task">
-                                                    <label for="task1">Finish ticket update</label>
+                                                    <input type="checkbox" name="task" style="margin-right: 10px">
+                                                    <label for="task1"><b>Finish ticket update</b></label>
+                                                    <button type="button" class="pri-ur">URGENT</button>
                                                 </div>
                                                 <div class="task-row">
-                                                    <input type="checkbox" name="task">
-                                                    <label for="task2">Create new ticket example</label>
+                                                    <input type="checkbox" name="task" style="margin-right: 10px">
+                                                    <label for="task2"><b>Create new ticket example</b></label>
+                                                    <button type="button" class="pri-new">NEW</button>
                                                 </div>
-                                                <div class="task-row">
-                                                    <input type="checkbox" name="task">
-                                                    <label for="task3">Update ticket report</label>
+                                                <div class="task-row tar-last">
+                                                    <input type="checkbox" name="task" style="margin-right: 10px" >
+                                                    <label for="task3"><b>Update ticket report</b></label>
+                                                    <button type="button" class="pri-def">DEFAULT</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -364,7 +378,6 @@
             $('#bar').click(function(){
                 $(this).toggleClass('open');
                 $('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled' );
-
             });
 
         </script>
